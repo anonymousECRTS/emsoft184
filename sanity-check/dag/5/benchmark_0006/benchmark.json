@@ -1,0 +1,100 @@
+{
+  "nodes": [
+    {
+      "id": 0,
+      "period": 10
+    },
+    {
+      "id": 1,
+      "period": 6
+    },
+    {
+      "id": 2,
+      "period": 4
+    },
+    {
+      "id": 3,
+      "period": 7
+    },
+    {
+      "id": 4,
+      "period": 3
+    }
+  ],
+  "edges": [
+    {
+      "id": 0,
+      "source": 0,
+      "target": 2,
+      "A_p": 7,
+      "U_p": 2,
+      "W_p": 4
+    },
+    {
+      "id": 1,
+      "source": 3,
+      "target": 0,
+      "A_p": 3,
+      "U_p": 3,
+      "W_p": 6
+    },
+    {
+      "id": 2,
+      "source": 0,
+      "target": 1,
+      "A_p": 5,
+      "U_p": 1,
+      "W_p": 2
+    },
+    {
+      "id": 3,
+      "source": 3,
+      "target": 4,
+      "A_p": 11,
+      "U_p": 2,
+      "W_p": 4
+    }
+  ],
+  "metadata": {
+    "benchmark_id": 6,
+    "num_nodes": 5,
+    "num_edges": 4,
+    "num_sccs": 5,
+    "sccs": [
+      [
+        3
+      ],
+      [
+        4
+      ],
+      [
+        0
+      ],
+      [
+        2
+      ],
+      [
+        1
+      ]
+    ],
+    "scc_dag_edges": [
+      [
+        2,
+        3
+      ],
+      [
+        0,
+        2
+      ],
+      [
+        2,
+        4
+      ],
+      [
+        0,
+        1
+      ]
+    ],
+    "generation_mode": "loop_deadlock_free"
+  }
+}

@@ -1,0 +1,148 @@
+{
+  "nodes": [
+    {
+      "id": 0,
+      "period": 9
+    },
+    {
+      "id": 1,
+      "period": 5
+    },
+    {
+      "id": 2,
+      "period": 10
+    },
+    {
+      "id": 3,
+      "period": 9
+    },
+    {
+      "id": 4,
+      "period": 4
+    },
+    {
+      "id": 5,
+      "period": 3
+    },
+    {
+      "id": 6,
+      "period": 6
+    },
+    {
+      "id": 7,
+      "period": 10
+    },
+    {
+      "id": 8,
+      "period": 7
+    },
+    {
+      "id": 9,
+      "period": 3
+    }
+  ],
+  "edges": [
+    {
+      "id": 0,
+      "source": 0,
+      "target": 1,
+      "A_p": 4,
+      "U_p": 3,
+      "W_p": 3
+    },
+    {
+      "id": 1,
+      "source": 1,
+      "target": 2,
+      "A_p": 2,
+      "U_p": 1,
+      "W_p": 3
+    },
+    {
+      "id": 2,
+      "source": 2,
+      "target": 3,
+      "A_p": 1,
+      "U_p": 1,
+      "W_p": 2
+    },
+    {
+      "id": 3,
+      "source": 3,
+      "target": 4,
+      "A_p": 2,
+      "U_p": 5,
+      "W_p": 5
+    },
+    {
+      "id": 4,
+      "source": 4,
+      "target": 5,
+      "A_p": 6,
+      "U_p": 4,
+      "W_p": 5
+    },
+    {
+      "id": 5,
+      "source": 5,
+      "target": 6,
+      "A_p": 12,
+      "U_p": 4,
+      "W_p": 5
+    },
+    {
+      "id": 6,
+      "source": 6,
+      "target": 7,
+      "A_p": 0,
+      "U_p": 1,
+      "W_p": 3
+    },
+    {
+      "id": 7,
+      "source": 7,
+      "target": 8,
+      "A_p": 1,
+      "U_p": 2,
+      "W_p": 2
+    },
+    {
+      "id": 8,
+      "source": 8,
+      "target": 9,
+      "A_p": 8,
+      "U_p": 3,
+      "W_p": 3
+    },
+    {
+      "id": 9,
+      "source": 9,
+      "target": 0,
+      "A_p": 7,
+      "U_p": 1,
+      "W_p": 5
+    }
+  ],
+  "metadata": {
+    "benchmark_id": 3,
+    "num_nodes": 10,
+    "num_edges": 10,
+    "num_sccs": 1,
+    "sccs": [
+      [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ]
+    ],
+    "scc_dag_edges": [],
+    "generation_mode": "neutral_random"
+  }
+}

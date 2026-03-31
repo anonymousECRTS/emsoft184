@@ -1,0 +1,9 @@
+=== Benchmark Summary ===
+Benchmark ID: 0
+Generation mode: loop_deadlock_free
+Nodes: 5
+Edges: 5
+SCCs: 1
+SCC-DAG edges: []
+SCC decomposition:
+  SCC 0: nodes=[0, 1, 2, 3, 4]

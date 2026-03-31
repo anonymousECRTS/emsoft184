@@ -1,0 +1,11 @@
+=== Benchmark Summary ===
+Benchmark ID: 8
+Generation mode: neutral_random
+Nodes: 8
+Edges: 10
+SCCs: 3
+SCC-DAG edges: [(0, 1), (1, 2)]
+SCC decomposition:
+  SCC 0: nodes=[0, 2, 3, 4, 7]
+  SCC 1: nodes=[5]
+  SCC 2: nodes=[1, 6]
